@@ -23,3 +23,8 @@ essai.appendChild(newT);
 
 newT.innerHTML = ("<p>test 2</p>")
 
+
+
+const bouton = document.getElementById("btn");
+bouton.addEventListener("click", function() {
+    bouton.innerHTML = "C'est cliqué !"; });
