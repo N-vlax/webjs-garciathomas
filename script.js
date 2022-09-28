@@ -17,13 +17,9 @@ newText.innerHTML = ("<p>Nouvel objet</p>")
 
 
 
-
-
 const newT= document.createElement("div");
 
-let deux = document.getElementById("container");
-
-deux.appendChild(newT);
+essai.appendChild(newT);
 
 newT.innerHTML = ("<p>test 2</p>")
 
