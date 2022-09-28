@@ -21,10 +21,16 @@ const newT= document.createElement("div");
 
 essai.appendChild(newT);
 
-newT.innerHTML = ("<p>test 2</p>")
+newT.innerHTML = ("<p>test 2</p>");
 
-
+let suivi = 0;
 
 const bouton = document.getElementById("btn");
 bouton.addEventListener("click", function() {
-    bouton.innerHTML = "C'est cliqué !"; });
+
+suivi = suivi + 1
+console.log ("Tu as cliqué !" + suivi)
+});
+
+
+
